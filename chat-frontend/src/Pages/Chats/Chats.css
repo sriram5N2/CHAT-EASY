@@ -1,0 +1,7 @@
+.chats-page {
+    font-family: cursive;
+}
+.chats-container {
+    display: flex;
+    flex-direction: row;
+}

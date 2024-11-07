@@ -1,0 +1,14 @@
+.chat-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 1em;
+    margin: 2% 1%;
+}
+.chat-box:hover {
+    color: white;
+    background-color: grey;
+}

@@ -1,0 +1,8 @@
+.App {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #fbc2eb, #b5cff9, #a6c1ee);
+}
+/* for removing scroll bar aside chat list */
+::-webkit-scrollbar {
+    width: 0px;
+}
