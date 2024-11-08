@@ -64,7 +64,7 @@ function Sidebar() {
                 },
             };
             const { data } = await axios.post(
-                "https://giribabi-chateasy2024-api.onrender.com/api/chat",
+                "https://chat-easy-suct.onrender.com/api/chat",
                 { userId },
                 config
             );
@@ -108,7 +108,7 @@ function Sidebar() {
                 },
             };
             const { data } = await axios.get(
-                `https://giribabi-chateasy2024-api.onrender.com/api/user?search=${search}`,
+                `https://chat-easy-suct.onrender.com/api/user?search=${search}`,
                 config
             );
             //console.log("fetched data:");
