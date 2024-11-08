@@ -32,7 +32,7 @@ function MyChats({ fetchChatsAgain }) {
                 },
             };
             const { data } = await axios.get(
-                "https://giribabi-chateasy2024-api.onrender.com/api/chat",
+                "https://chat-easy-suct.onrender.com/api/chat",
                 config
             );
             //console.log("chats:");
