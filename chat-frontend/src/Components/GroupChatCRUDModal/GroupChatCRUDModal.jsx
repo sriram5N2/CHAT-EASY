@@ -45,7 +45,7 @@ function GroupChatCRUDModal({ children }) {
                 },
             };
             const { data } = await axios.get(
-                `https://giribabi-chateasy2024-api.onrender.com/api/user?search=${query}`,
+                `https://chat-easy-suct.onrender.com/api/user?search=${query}`,
                 config
             );
             //console.log(data);
@@ -81,7 +81,7 @@ function GroupChatCRUDModal({ children }) {
                 },
             };
             const { data } = await axios.post(
-                "https://giribabi-chateasy2024-api.onrender.com/api/chat/creategroup",
+                "https://chat-easy-suct.onrender.com/api/chat/creategroup",
                 {
                     name: groupChatName,
                     users: JSON.stringify(selectedUsers.map((u) => u._id)),
