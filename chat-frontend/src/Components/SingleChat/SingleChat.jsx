@@ -90,7 +90,7 @@ function SingleChat({ fetchChatsAgain, setFetchChatsAgain }) {
                 },
             };
             const { data } = await axios.get(
-                `https://giribabi-chateasy2024-api.onrender.com/api/message/${selectedChat._id}`,
+                `https://chat-easy-suct.onrender.com/api/message/${selectedChat._id}`,
                 config
             );
             //console.log(data);
@@ -151,7 +151,7 @@ function SingleChat({ fetchChatsAgain, setFetchChatsAgain }) {
                     },
                 };
                 const { data } = await axios.post(
-                    "https://giribabi-chateasy2024-api.onrender.com/api/message",
+                    "https://chat-easy-suct.onrender.com/api/message",
                     {
                         content: newMessage,
                         chatId: selectedChat._id,
