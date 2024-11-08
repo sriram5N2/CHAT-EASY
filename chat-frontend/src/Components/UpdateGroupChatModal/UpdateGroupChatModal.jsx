@@ -51,7 +51,7 @@ function UpdateGroupChatModal({
             };
 
             const { data } = await axios.put(
-                "https://giribabi-chateasy2024-api.onrender.com/api/chat/renameGroup",
+                "https://chat-easy-suct.onrender.com/api/chat/renameGroup",
                 {
                     chatId: selectedChat._id,
                     chatName: groupChatName,
@@ -87,7 +87,7 @@ function UpdateGroupChatModal({
                 },
             };
             const { data } = await axios.get(
-                `https://giribabi-chateasy2024-api.onrender.com/api/user?search=${query}`,
+                `https://chat-easy-suct.onrender.com/api/user?search=${query}`,
                 config
             );
             //console.log(data);
@@ -137,7 +137,7 @@ function UpdateGroupChatModal({
             };
             // eslint-disable-next-line no-unused-vars
             const { data } = await axios.put(
-                "https://giribabi-chateasy2024-api.onrender.com/api/chat/addToGroup",
+                "https://chat-easy-suct.onrender.com/api/chat/addToGroup",
                 {
                     chatId: selectedChat._id,
                     userId: userToBeAdded._id,
@@ -180,7 +180,7 @@ function UpdateGroupChatModal({
                 },
             };
             const { data } = await axios.put(
-                "https://giribabi-chateasy2024-api.onrender.com/api/chat/removeFromGroup",
+                "https://chat-easy-suct.onrender.com/api/chat/removeFromGroup",
                 {
                     chatId: selectedChat._id,
                     userId: userToBeRemoved._id,
